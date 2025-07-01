@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Smart Form Filler</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Voice Based Smart Form Filler</h1>
+        <form id="voiceform">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Say your name" />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Say your email" />
+
+            <label for="branch">Branch:</label>
+            <input type="text" id="branch" name="branch" placeholder="Say your email" />
+
+            <label for="rollno">Roll Number:</label>
+            <input type="number" id="rollno" name="rollno" placeholder="Say your email" />
+
+            <label for="year">Year:</label>
+            <input type="text" id="year" name="year" placeholder="Enter year (1-4)" />
+
+            <button type="submit">Submit</button>
+            <button type="button" id="startBtn">🎤 Start Voice Input</button>
+
+        </form>
+
+        <div id="status"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
